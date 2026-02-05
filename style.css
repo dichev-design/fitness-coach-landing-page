@@ -31,3 +31,40 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
+
+.hero button:hover {
+    background: #218838;
+}
+
+.features {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    maring-bottom: 40px;
+}
+
+.features-card {
+    display: flex;
+    gap 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 25px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+@media(max-width: 768px) {
+    .features-card {
+        flex-direction: column;
+    }
+}
