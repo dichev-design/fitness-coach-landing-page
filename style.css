@@ -105,13 +105,13 @@ h2 {
     margin-top: 15px;
     font-style: normal;
     font-weight: bold;
-    ;
 }
 
 .cta {
     background: #28a745;
     color: white;
     text-align: center;
+    margin-top: 1rem;
     padding: 60px 20px;
 }
 
